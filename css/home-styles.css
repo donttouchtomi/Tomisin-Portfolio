@@ -1,0 +1,12 @@
+.head {
+    width: 40vw;
+    height: 100vh;
+    background-color: green;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.head img {
+    width: 400px;
+}
