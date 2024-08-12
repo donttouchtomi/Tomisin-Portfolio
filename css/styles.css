@@ -1,149 +1,151 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  text-align: center;
-  font-family: "Roboto", sans-serif;
+    font-family: "Cormorant Garamond", serif;
 }
 
-.banner {
-  /* border: 1px solid black; */
-  width: 100vw;
-  height: 50vh;
-  background: rgb(131, 58, 180);
-  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+.body {
+    width: 49vw;
 }
 
-.banner>h1 {
-  padding-top: 100px;
-  font-family: "Playwrite AT", cursive;
-  color: white;
-  font-size: 3rem;
+.head {
+    width: 47vw;
+    height: 100vh;
+    background-color: #af948b;
+    position: fixed;
+    right: 0;
+    top: 0;
 }
 
-.banner p {
-  color: white;
-  font-size: 1.25rem;
+.head>img {
+    /* border: 1px solid black; */
+    width: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto
+    /* margin: auto; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
-.hero-section {
-  margin: 100px 0;
+.navBar {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.hero-section>img {
-  width: 300px;
-  border-radius: 150px;
+.navBar>p {
+    font-size: 1.1875rem;
+    margin-left: 40px;
+    color: #000000;
 }
 
-.hero-section h2 {
-  margin: 20px 0;
-  font-size: 2.5rem;
-  text-transform: uppercase;
+.nav {
+    display: flex;
+    gap: 20px;
 }
 
-.hero-section p {
-  width: 70%;
-  margin: auto;
-  justify-content: center;
-  line-height: 25px;
+.nav li {
+    list-style: none;
+    gap: 10px;
 }
 
-.about {
-  /* border: 1px solid black; */
-  width: 800px;
-  margin: auto;
-}
-
-.about > h2 {
-  font-size: 2rem;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-.text {
-  height: 250px;
-  margin-bottom: 20px;
-}
-
-.one > img {
-  float: left;
-  width: 250px;
-  height: 250px;
-  margin-right: 25px;
-}
-
-.one h2 {
-  text-align: left ;
-}
-.one p {
-  text-align: left;
-  line-height: 25px;
-}
-
-.two > img {
-  float: left;
-  width: 250px;
-  height: 250px;
-  margin-right: 25px;
-}
-
-.two h2 {
-  text-align: left;
-}
-
-.two p {
-  text-align: justify;
-  line-height: 25px;
-}
-
-.contact {
-  /* border: 1px solid black; */
-  margin-top: 100px ;
-}
-
-.contact > h2 {
-  font-weight: 300;
-  margin-bottom: 30px;
-}
-
-.contact h3 {
-  font-size: 1rem;
-  word-spacing: 5px;
-  margin-bottom: 30px;
-}
-
-.contact p {
-  /* text-align: center; */
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
-.contact button { 
-   background-color: rgb(102, 191, 191);
-  padding: 10px 40px;
-  border: none;
-  border-radius: 10px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  color: white;
-  margin-bottom: 50px;
-}
-
-.footer {
-  background-color: rgb(102, 191, 191);
-  padding: 50px 0px 20px;
-}
-.footer > a {
-  color: rgb(17, 153, 158);
-    margin: 10px 20px;
+.nav li a {
+    color: #000000;
     text-decoration: none;
 }
 
-.footer p {
-  color: rgb(234, 246, 246);
-  font-size: 0.75rem;
-  padding: 20px 0px;
+.info {
+    /* border: 1px solid black; */
+    padding: 200px 100px;
+    /* margin: 0; */
+    /* margin-top: 100px; */
 }
+
+.info>h1 {
+    font-size: 5.3125rem;
+}
+
+#role {
+    font-size: 1.75rem;
+    /* margin-bottom: 100px; */
+}
+
+.contact_information p {
+    font-size: 0.9375rem;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 0;
+}
+
+.contact_information p a {
+    color: #000000;
+    margin: 0 5px;
+}
+
+.about>h2,
+.skill>h2,
+.experience>h2,
+.education>h2,
+.achievements>h2,
+.contact>h2 {
+    font-size: 1.375rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9375rem;
+    line-height: 35px;
+}
+
+.skill {
+    /* margin: 350px 100px; */
+}
+
+.skill ul, .achievements ul {
+    line-height: 35px;
+    font-size: 0.9375rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.experience ul, .education ul {
+    line-height: 35px;
+    font-size: 0.9375rem;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+}
+.contact p{
+    padding-bottom: 5px;
+    font-size: 0.9375rem;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 0;
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+/* @media (max-width: 800px) {
+    .head {
+        position: static;
+        top: 0;
+        width: 100%;
+        height: 50vh;
+    }
+    .body {
+        width: 100%;
+    }
+} */
