@@ -140,25 +140,68 @@ body {
     padding-bottom: 25px;
 }
 
-@media (max-width: 700px) {
+
+@media (max-width: 1350px){
+    .info>h1 {
+        font-size: 4.3125rem;
+    }
+    .info {
+        padding:  200px 100px;
+    }
+}
+@media (max-width: 1250px){
+    .info>h1 {
+        font-size: 4rem;
+    }
+    .info {
+        padding: 200px 100px;
+    }
+}
+@media (max-width: 1150px){
+    .info>h1 {
+        font-size: 3.3125rem;
+    }
+    #role {
+        font-size: 1.5rem;
+    }
+    .info {
+        padding: 200px 70px;
+    }
+}
+@media (max-width: 950px){
+    .info>h1 {
+        font-size: 3rem;
+    }
+    .info {
+        padding: 150px 40px;
+    }
+    .head>img {
+        width: 350px;
+    }
+}
+@media (max-width: 850px){
+    .info>h1 {
+        font-size: 2.3125rem;
+    }
+    #role {
+        font-size: 1.35rem;
+    }
+    
+}
+@media (max-width: 750px) {
     .head {
         margin-top: 50px;
         /* border: 1px solid; */
-        position: static;
+        position: relative;
         top: 0;
         width: 100%;
         height: 50vh;
     }
 
     .head>img {
-        visibility: hidden;
+        /* visibility: hidden; */
         width: 300px;
         position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto
     }
 
     .body {
@@ -194,7 +237,7 @@ body {
         margin-bottom: 100px;
     }
     .contact_information p {
-        font-size: 1.067rem;
+        font-size: 1rem;
         text-align: center;
         font-family: "Montserrat", sans-serif;
         margin: 5px 0;
